@@ -1,0 +1,18 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+.content {
+    text-align: center;
+    width: 80%;
+}
+table {
+    margin: auto;
+}
+li {
+    margin: 5px 0;
+    text-align: left; /* 新增此行讓文字靠左 */
+}
