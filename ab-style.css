@@ -1,18 +1,47 @@
 body {
+    font-family: Arial, sans-serif;
+    background-color: #a6aeae;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+    box-sizing: border-box;
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
     margin: 0;
 }
+
 .content {
+    background-color: #838889;
+    padding: 20px;
+    border-radius: 20px;
+    max-width: 800px;
     text-align: center;
     width: 80%;
 }
+
 table {
     margin: auto;
 }
+
+h3 {
+    background-color: #272929;
+    color: #c5d6dc;
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: bold;
+    padding: 5px 10px;
+    width: auto;
+    display: inline-block;
+}
+
 li {
+    list-style-type: none;
+    padding: 10px;
+    background-color: #93a3ae;
+    border-radius: 30px;
     margin: 5px 0;
-    text-align: left; /* 新增此行讓文字靠左 */
+    text-align: left;
 }
