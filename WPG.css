@@ -1,45 +1,44 @@
 body {
-    background-color: antiquewhite;
+    background-color: rgb(233, 214, 228);
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
     height: 100vh;
-    border: 1px dashed blue;
     border-radius: 20px;
     margin: 50px;
   }
   
-  .game-area {
+.game-area {
     width: 80%;
     border-radius: 10px;
     padding: 20px;
     margin: 5px;
   }
   
-  #game-info {
-    background-color: burlywood;
+#game-info {
+    background-color: rgb(201, 171, 198);
     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
       "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   }
   
-  #controls {
-    background-color: darkgrey;
+#controls {
+    background-color: rgb(213, 165, 200);
   }
   
-  #game-container {
-    background-color: gainsboro;
+#game-container {
+    background-color: rgb(219, 186, 209);
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     margin-bottom: 20px;
   }
   
-  .tube {
+.tube {
     width: 50px;
     height: 200px;
-    border: 2px solid black;
+    border: 2px solid rgb(0, 0, 0);
     border-top: 0px;
     border-radius: 0 0 10px 10px;
     margin: 10px;
@@ -49,12 +48,45 @@ body {
     margin-top: 20px;
   }
   
-  .water {
+.water {
     width: 100%;
   }
   
-  .tube.selected {
+.tube.selected {
     border-color: "red";
     box-shadow: 0 0 10px rgba(255, 0, 0, 0.5);
     transform: translateY(-20px);
   }
+
+a {
+    color: rgb(245, 202, 228);
+    background-color: rgb(161, 107, 141);
+    text-decoration: none;
+    padding: 7px;
+    border: 5px solid rgb(150, 107, 121);
+    display: inline-block; /* 讓 <a> 元素橫向排列 */
+    margin: 10px; /* 增加間距 */
+    border-radius: 20px;
+}
+
+a:hover {
+    color: #6b4853;
+    background-color: rgb(220, 208, 215); /* 鼠標靠近時背景顏色變化 */
+}
+
+.link-container {
+    display: flex; /* 使用 Flexbox 讓 <a> 元素橫向排列 */
+    justify-content: center; /* 水平置中 */
+    gap: 10px; /* 設定連結之間的間距 */
+}
+
+h1 {
+    color: rgb(217, 159, 159);
+    background-color: rgb(141, 94, 114);
+    text-decoration: none;
+    padding: 5px 10px;
+    border: 5px solid rgb(115, 86, 104);
+    display: inline-block;
+    margin: 20px auto;
+    border-radius: 5px;
+}
