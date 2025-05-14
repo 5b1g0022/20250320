@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #c9b9c6;
+    text-align: center;
+}
+
+a {
+    color: rgb(186, 234, 227);
+    background-color: rgb(107, 161, 125);
+    text-decoration: none;
+    padding: 10px;
+    border: 5px solid rgb(107, 150, 113);
+    display: inline-block;
+    margin: 10px auto;
+    border-radius: 40px;
+}
+
+a:hover {
+    color: rgb(107, 161, 125);
+    background-color: rgb(186, 234, 227);
+}
+
+h1 {
+    color: rgb(159, 209, 217);
+    background-color: rgb(141, 98, 94);
+    text-decoration: none;
+    padding: 5px 10px;
+    border: 5px solid rgb(115, 86, 86);
+    display: inline-block;
+    margin: 20px auto;
+    border-radius: 20px;
+}

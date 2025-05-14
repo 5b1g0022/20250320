@@ -1,0 +1,53 @@
+a {
+    color: rgb(175, 207, 186);
+    background-color: rgb(76, 115, 96);
+    text-decoration: none;
+    padding: 5px 10px;
+    border: 5px solid rgb(79, 103, 90);
+    display: inline-block; /* 讓 <a> 元素橫向排列 */
+    border-radius: 20px;
+}
+
+a:hover {
+    color: #486b52;
+    background-color: rgb(176, 232, 203); /* 鼠標靠近時背景顏色變化 */
+}
+
+body {
+    background-color: rgb(134, 142, 135);
+}
+
+h1 {
+    margin-top: 5px; /* 減少與上方的距離 */
+    margin-bottom: 5px; /* 減少與下方的距離 */
+    color: rgb(27, 50, 34);
+}
+
+label {
+    color: rgb(27, 50, 34);
+}
+
+div#myId {
+    width: 90%;
+    background-color: rgb(106, 117, 107);
+    border-radius: 20px;
+    padding: 10px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+table, tr, td{
+    border: 1px solid rgb(160, 168, 161);
+    border-collapse: collapse;
+}
+
+table{
+    text-align: center;
+    margin: 0 auto;
+}
+
+td{
+    padding: 5px;
+    text-align: center;
+    color: rgb(204, 210, 206);
+}
