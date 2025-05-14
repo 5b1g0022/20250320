@@ -1,23 +1,25 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #c9b9c6;
+    background-color: #c0ccdc;
     text-align: center;
 }
 
 a {
-    color: rgb(186, 234, 227);
-    background-color: rgb(107, 161, 125);
+    font-size: 20px;
+    color: rgb(159, 209, 217);
+    background-color: rgb(141, 98, 94);
     text-decoration: none;
     padding: 10px;
-    border: 5px solid rgb(107, 150, 113);
     display: inline-block;
     margin: 10px auto;
-    border-radius: 40px;
+    border-radius: 5px;
+    margin-top: 5px; /* 減少與上方的距離 */
+    margin-bottom: 5px; /* 減少與下方的距離 */
 }
 
 a:hover {
-    color: rgb(107, 161, 125);
-    background-color: rgb(186, 234, 227);
+    color: rgb(161, 107, 107);
+    background-color: rgb(132, 166, 186);
 }
 
 h1 {
