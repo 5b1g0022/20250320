@@ -1,20 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Water Puzzle</title>
-    <link rel="stylesheet" href="WPG.css" />
-    <script src="WPG.js"></script>
+    <meta charset="UTF-8" /> <!-- 設定網頁的字元編碼為UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> <!-- 響應式設計 -->
+    <title>Water Puzzle</title> <!-- 頁面標題 -->
+    <link rel="stylesheet" href="WPG.css" /> <!-- 連結外部CSS樣式 -->
+    <script src="WPG.js"></script> <!-- 連結外部JavaScript -->
   </head>
   <body>
+    <!-- 遊戲標題 -->
     <h1>2025 Water Puzzle Game</h1>
-    <div id="game-info" class="game-area">
-      <p>關卡：<span id="level-count">1</span></p>
-      <p>完成的試管：<span id="completed-tubes-count">0</span></p>
+    <!-- 導覽連結區塊，橫向排列 -->
+    <div>
+      <a href="index.html">回首頁</a> <!-- 連結到首頁 -->
+      <a href="about.html">關於我</a> <!-- 連結到關於我頁面 -->
+      <a href="homework.html">N*N</a> <!-- 連結到N*N乘法表頁面 -->
     </div>
+    <!-- 遊戲資訊區塊 -->
+    <div id="game-info" class="game-area">
+      <p>關卡：<span id="level-count">1</span></p> <!-- 顯示目前關卡 -->
+      <p>完成的試管：<span id="completed-tubes-count">0</span></p> <!-- 顯示完成的試管數 -->
+    </div>
+    <!-- 控制區塊（選擇關卡與開始按鈕） -->
     <div id="controls" class="game-area">
-      <label for="level-select">選擇關卡</label>
+      <label for="level-select">選擇關卡</label> <!-- 下拉選單標籤 -->
       <select id="level-select">
         <option value="1">Level 1</option>
         <option value="2">Level 2</option>
@@ -27,8 +36,9 @@
         <option value="9">Level 9</option>
         <option value="10">Level 10</option>
       </select>
-      <button id="play-button">PLAY</button>
+      <button id="play-button">PLAY</button> <!-- 開始遊戲按鈕 -->
     </div>
+    <!-- 遊戲主容器，動態產生試管 -->
     <div id="game-container" class="game-area"></div>
   </body>
 </html>
