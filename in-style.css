@@ -1,34 +1,38 @@
+/* 網頁主體樣式 */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #c0ccdc;
-    text-align: center;
+    font-family: Arial, sans-serif;        /* 設定字型 */
+    background-color: #c0ccdc;             /* 背景顏色 */
+    text-align: center;                    /* 內容置中 */
 }
 
+/* 超連結樣式 */
 a {
-    font-size: 20px;
-    color: rgb(159, 209, 217);
-    background-color: rgb(141, 98, 94);
-    text-decoration: none;
-    padding: 10px;
-    display: inline-block;
-    margin: 10px auto;
-    border-radius: 5px;
-    margin-top: 5px; /* 減少與上方的距離 */
-    margin-bottom: 5px; /* 減少與下方的距離 */
+    font-size: 20px;                       /* 字體大小 */
+    color: rgb(159, 209, 217);             /* 文字顏色 */
+    background-color: rgb(141, 98, 94);    /* 背景顏色 */
+    text-decoration: none;                 /* 移除底線 */
+    padding: 10px;                         /* 內邊距 */
+    display: inline-block;                 /* 讓多個 a 橫向排列 */
+    margin: 10px auto;                     /* 上下外邊距，左右自動置中 */
+    border-radius: 5px;                    /* 圓角 */
+    margin-top: 5px;                       /* 減少與上方的距離 */
+    margin-bottom: 5px;                    /* 減少與下方的距離 */
 }
 
+/* 超連結滑鼠懸停效果 */
 a:hover {
-    color: rgb(161, 107, 107);
-    background-color: rgb(132, 166, 186);
+    color: rgb(161, 107, 107);             /* 滑鼠移上時文字顏色 */
+    background-color: rgb(132, 166, 186);  /* 滑鼠移上時背景顏色 */
 }
 
+/* 標題樣式 */
 h1 {
-    color: rgb(159, 209, 217);
-    background-color: rgb(141, 98, 94);
-    text-decoration: none;
-    padding: 5px 10px;
-    border: 5px solid rgb(115, 86, 86);
-    display: inline-block;
-    margin: 20px auto;
-    border-radius: 20px;
+    color: rgb(159, 209, 217);             /* 文字顏色 */
+    background-color: rgb(141, 98, 94);    /* 背景顏色 */
+    text-decoration: none;                 /* 無底線 */
+    padding: 5px 10px;                     /* 內邊距 */
+    border: 5px solid rgb(115, 86, 86);    /* 邊框 */
+    display: inline-block;                 /* 只包住內容 */
+    margin: 20px auto;                     /* 上下外邊距，左右自動置中 */
+    border-radius: 20px;                   /* 圓角 */
 }

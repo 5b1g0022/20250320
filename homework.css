@@ -1,55 +1,64 @@
+/* 超連結樣式 */
 a {
-    color: rgb(175, 207, 186);
-    background-color: rgb(76, 115, 96);
-    text-decoration: none;
-    padding: 5px 10px;
-    border: 5px solid rgb(79, 103, 90);
-    display: inline-block; /* 讓 <a> 元素橫向排列 */
-    border-radius: 20px;
+    color: rgb(175, 207, 186);                  /* 文字顏色 */
+    background-color: rgb(76, 115, 96);         /* 背景顏色 */
+    text-decoration: none;                      /* 移除底線 */
+    padding: 5px 10px;                          /* 內邊距 */
+    border: 5px solid rgb(79, 103, 90);         /* 邊框 */
+    display: inline-block;                      /* 讓 <a> 元素橫向排列 */
+    border-radius: 20px;                        /* 圓角 */
 }
 
+/* 超連結滑鼠懸停效果 */
 a:hover {
-    color: #486b52;
-    background-color: rgb(176, 232, 203); /* 鼠標靠近時背景顏色變化 */
+    color: #486b52;                             /* 滑鼠移上時文字顏色 */
+    background-color: rgb(176, 232, 203);       /* 滑鼠移上時背景顏色 */
 }
 
+/* 網頁背景色 */
 body {
     background-color: rgb(134, 142, 135);
 }
 
+/* 標題樣式 */
 p {
-    font-size: 40px;
-    margin-top: 5px; /* 減少與上方的距離 */
-    margin-bottom: 5px; /* 減少與下方的距離 */
-    color: rgb(27, 50, 34);
+    font-size: 40px;                            /* 字體大小 */
+    margin-top: 5px;                            /* 減少與上方的距離 */
+    margin-bottom: 5px;                         /* 減少與下方的距離 */
+    color: rgb(27, 50, 34);                     /* 文字顏色 */
 }
 
+/* 輸入標籤樣式 */
 label {
-    font-size: 20px;
-    color: rgb(27, 50, 34);
+    font-size: 20px;                            /* 字體大小 */
+    color: rgb(27, 50, 34);                     /* 文字顏色 */
 }
 
+/* 乘法表顯示區塊樣式 */
 div#myId {
-    width: 90%;
-    background-color: rgb(106, 117, 107);
-    border-radius: 20px;
-    padding: 10px;
-    margin: 0 auto;
-    margin-top: 20px;
+    width: 90%;                                 /* 寬度 */
+    background-color: rgb(106, 117, 107);       /* 背景顏色 */
+    border-radius: 20px;                        /* 圓角 */
+    padding: 10px;                              /* 內邊距 */
+    margin: 0 auto;                             /* 置中 */
+    margin-top: 20px;                           /* 與上方間距 */
 }
 
-table, tr, td{
-    border: 1px solid rgb(160, 168, 161);
-    border-collapse: collapse;
+/* 表格與表格欄位樣式 */
+table, tr, td {
+    border: 1px solid rgb(160, 168, 161);       /* 邊框顏色 */
+    border-collapse: collapse;                  /* 合併邊框 */
 }
 
-table{
-    text-align: center;
-    margin: 0 auto;
+/* 表格置中 */
+table {
+    text-align: center;                         /* 文字置中 */
+    margin: 0 auto;                             /* 表格置中 */
 }
 
-td{
-    padding: 5px;
-    text-align: center;
-    color: rgb(204, 210, 206);
+/* 表格欄位樣式 */
+td {
+    padding: 5px;                               /* 內邊距 */
+    text-align: center;                         /* 文字置中 */
+    color: rgb(204, 210, 206);                  /* 文字顏色 */
 }

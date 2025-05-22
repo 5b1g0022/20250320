@@ -1,92 +1,104 @@
+/* 網頁主體樣式 */
 body {
-    background-color: rgb(233, 214, 228);
-    font-family: Arial, Helvetica, sans-serif;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    height: 100vh;
-    border-radius: 20px;
-    margin: 50px;
-  }
-  
+    background-color: rgb(233, 214, 228);           /* 背景顏色 */
+    font-family: Arial, Helvetica, sans-serif;       /* 字型 */
+    display: flex;                                  /* 使用 flex 排版 */
+    flex-direction: column;                         /* 子元素垂直排列 */
+    align-items: center;                            /* 水平置中 */
+    justify-content: flex-start;                    /* 從上方開始排列 */
+    height: 100vh;                                  /* 高度佔滿整個視窗 */
+    border-radius: 20px;                            /* 圓角 */
+    margin: 50px;                                   /* 外邊距 */
+}
+
+/* 遊戲區塊樣式 */
 .game-area {
-    width: 80%;
-    border-radius: 10px;
-    padding: 20px;
-    margin: 5px;
-  }
-  
+    width: 80%;                                     /* 寬度 80% */
+    border-radius: 10px;                            /* 圓角 */
+    padding: 20px;                                  /* 內邊距 */
+    margin: 5px;                                    /* 外邊距 */
+}
+
+/* 遊戲資訊區塊 */
 #game-info {
-    background-color: rgb(201, 171, 198);
+    background-color: rgb(201, 171, 198);           /* 背景顏色 */
     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  }
-  
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif; /* 字型 */
+}
+
+/* 控制區塊 */
 #controls {
-    background-color: rgb(213, 165, 200);
-  }
-  
+    background-color: rgb(213, 165, 200);           /* 背景顏色 */
+}
+
+/* 遊戲容器 */
 #game-container {
-    background-color: rgb(219, 186, 209);
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-bottom: 20px;
-  }
-  
+    background-color: rgb(219, 186, 209);           /* 背景顏色 */
+    display: flex;                                  /* 使用 flex 排版 */
+    flex-wrap: wrap;                                /* 換行排列 */
+    justify-content: center;                        /* 水平置中 */
+    margin-bottom: 20px;                            /* 下方間距 */
+}
+
+/* 試管樣式 */
 .tube {
-    width: 50px;
-    height: 200px;
-    border: 2px solid rgb(0, 0, 0);
-    border-top: 0px;
-    border-radius: 0 0 10px 10px;
-    margin: 10px;
-    display: flex;
-    flex-direction: column-reverse;
-    overflow: hidden;
-    margin-top: 20px;
-  }
-  
+    width: 50px;                                    /* 寬度 */
+    height: 200px;                                  /* 高度 */
+    border: 2px solid rgb(0, 0, 0);                 /* 邊框 */
+    border-top: 0px;                                /* 上邊框無 */
+    border-radius: 0 0 10px 10px;                   /* 下方圓角 */
+    margin: 10px;                                   /* 外邊距 */
+    display: flex;                                  /* 使用 flex 排版 */
+    flex-direction: column-reverse;                 /* 內容反向排列 */
+    overflow: hidden;                               /* 超出隱藏 */
+    margin-top: 20px;                               /* 上方間距 */
+}
+
+/* 水樣式 */
 .water {
-    width: 100%;
-  }
-  
+    width: 100%;                                    /* 寬度佔滿 */
+}
+
+/* 被選中的試管樣式 */
 .tube.selected {
-    border-color: "red";
-    box-shadow: 0 0 10px rgba(255, 0, 0, 0.5);
-    transform: translateY(-20px);
-  }
+    border-color: "red";                            /* 邊框顏色（注意：應去掉引號） */
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.5);      /* 紅色陰影 */
+    transform: translateY(-20px);                   /* 上移效果 */
+}
 
+/* 超連結樣式 */
 a {
-    color: rgb(245, 202, 228);
-    background-color: rgb(161, 107, 141);
-    text-decoration: none;
-    padding: 7px;
-    border: 5px solid rgb(150, 107, 121);
-    display: inline-block; /* 讓 <a> 元素橫向排列 */
-    margin: 10px; /* 增加間距 */
-    border-radius: 20px;
+    color: rgb(245, 202, 228);                      /* 文字顏色 */
+    background-color: rgb(161, 107, 141);           /* 背景顏色 */
+    text-decoration: none;                          /* 移除底線 */
+    padding: 7px;                                   /* 內邊距 */
+    border: 5px solid rgb(150, 107, 121);           /* 邊框 */
+    display: inline-block;                          /* 讓 <a> 元素橫向排列 */
+    margin: 10px;                                   /* 增加間距 */
+    border-radius: 20px;                            /* 圓角 */
 }
 
+/* 超連結滑鼠懸停效果 */
 a:hover {
-    color: #6b4853;
-    background-color: rgb(220, 208, 215); /* 鼠標靠近時背景顏色變化 */
+    color: #6b4853;                                 /* 滑鼠移上時文字顏色 */
+    background-color: rgb(220, 208, 215);           /* 鼠標靠近時背景顏色變化 */
 }
 
+/* 連結容器，讓多個 a 橫向排列並置中 */
 .link-container {
-    display: flex; /* 使用 Flexbox 讓 <a> 元素橫向排列 */
-    justify-content: center; /* 水平置中 */
-    gap: 10px; /* 設定連結之間的間距 */
+    display: flex;                                  /* 使用 Flexbox 讓 <a> 元素橫向排列 */
+    justify-content: center;                        /* 水平置中 */
+    gap: 10px;                                      /* 設定連結之間的間距 */
 }
 
+/* 標題樣式 */
 h1 {
-    color: rgb(217, 159, 159);
-    background-color: rgb(141, 94, 114);
-    text-decoration: none;
-    padding: 5px 10px;
-    border: 5px solid rgb(115, 86, 104);
-    display: inline-block;
-    margin: 20px auto;
-    border-radius: 5px;
+    color: rgb(217, 159, 159);                      /* 文字顏色 */
+    background-color: rgb(141, 94, 114);            /* 背景顏色 */
+    text-decoration: none;                          /* 無底線 */
+    padding: 5px 10px;                              /* 內邊距 */
+    border: 5px solid rgb(115, 86, 104);            /* 邊框 */
+    display: inline-block;                          /* 只包住內容 */
+    margin: 20px auto;                              /* 上下外邊距，左右自動置中 */
+    border-radius: 5px;                             /* 圓角 */
 }
