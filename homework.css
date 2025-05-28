@@ -17,7 +17,7 @@ a:hover {
 
 /* 網頁背景色 */
 body {
-    background-color: rgb(134, 142, 135);
+    background-color: rgb(166, 184, 168);
 }
 
 /* 標題樣式 */
@@ -37,7 +37,7 @@ label {
 /* 乘法表顯示區塊樣式 */
 div#myId {
     width: 90%;                                 /* 寬度 */
-    background-color: rgb(106, 117, 107);       /* 背景顏色 */
+    background-color: rgb(131, 155, 133);       /* 背景顏色 */
     border-radius: 20px;                        /* 圓角 */
     padding: 10px;                              /* 內邊距 */
     margin: 0 auto;                             /* 置中 */
@@ -46,7 +46,7 @@ div#myId {
 
 /* 表格與表格欄位樣式 */
 table, tr, td {
-    border: 1px solid rgb(160, 168, 161);       /* 邊框顏色 */
+    border: 1px solid rgb(66, 68, 66);       /* 邊框顏色 */
     border-collapse: collapse;                  /* 合併邊框 */
 }
 
@@ -60,5 +60,5 @@ table {
 td {
     padding: 5px;                               /* 內邊距 */
     text-align: center;                         /* 文字置中 */
-    color: rgb(204, 210, 206);                  /* 文字顏色 */
+    color: rgb(44, 45, 44);                  /* 文字顏色 */
 }
