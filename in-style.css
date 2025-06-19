@@ -49,7 +49,7 @@ li {
     background-color: #8c97b0; /* 列表背景色 */
     border-radius: 10px; /* 圓角 */
     margin: 5px 0; /* 上下間距 */
-    text-align: center; /* 文字靠左 */
+    text-align: center; /* 文字靠中 */
 }
 
 /* 設定整個網頁的基本樣式與版面配置 */
